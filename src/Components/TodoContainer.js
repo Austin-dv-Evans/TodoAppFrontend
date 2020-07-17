@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import TodoItem from './TodoItem'
 
-export default function TodoContainer({todos}) {
+export default function TodoContainer({todos, deleteTodo}) {
 
 
     const showTodos = () => {
-        return todos.map(todo => <TodoItem key={todo.id} {...todo}/>)
+        return todos.map(todo => <TodoItem key={todo.id} {...todo} deleteTodo={deleteTodo}/>)
     }
 
     return(
