@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(0, 255, 255);
+  background-color: rgb(7, 151, 151);
 }
 
 
@@ -39,13 +39,29 @@ body {
   box-shadow: 0 20px 20px -10px grey;
   text-align: center;
   border-radius: 6px;
+  padding: 10px;
+  height: max-content
 }
 
 .urgent-input{
   display: flex;
   justify-content: center;
 }
+.input-group{
+  display: flex;
+  justify-content: center;
+}
 
+.edit-button {
+  background-color: rgb(5, 4, 63);
+  color: white
+  
+}
+.close-button {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
 .delete-button{
   background-color: red;
   color: white;
