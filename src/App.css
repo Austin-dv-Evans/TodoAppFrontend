@@ -5,13 +5,14 @@ body {
 
 .App{
   text-align: center;
+  font-family: fantasy;
 }
 
 .todo-form{
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 300px;
+  height: 250px;
   margin: auto;
   justify-content: space-evenly;
   background-color: white;
@@ -26,10 +27,9 @@ body {
   flex-flow: row wrap;
   list-style-type: none;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   padding-inline-start: 0%;
   padding-inline-end: 0%;
-  
 }
 
 .todo-item {
@@ -40,7 +40,8 @@ body {
   text-align: center;
   border-radius: 6px;
   padding: 10px;
-  height: max-content
+  height: max-content;
+  margin: 20px;
 }
 
 .urgent-input{
@@ -65,4 +66,16 @@ body {
 .delete-button{
   background-color: red;
   color: white;
+}
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
